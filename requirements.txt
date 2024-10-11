@@ -1,0 +1,6 @@
+pandas
+numpy 
+janitor
+seaborn 
+matplotlib
+pyjanitor
