@@ -9,24 +9,23 @@ Repository for Bancolombia admission test.
   - `data/`
     - `raw/` - Where all raw data is stored
     - `processed/` - Processed data, in case we need to modify the original structure for better analysis
+      `model/` - Data ready to modelling
+      - `poutput/` - Model's prediciton
   - `notebooks/`
-    - `EDA.ipynb` - The fun part: where everything is a mess only I would understand
-    - `preprocessing.ipynb` - A slightly cleaner mess compared to the step before
+    - `preprocessing.ipynb` - The fun part: where everything is a mess only I would understand
+    - `feature selection.ipynb` - A slightly cleaner mess compared to the step before
     - `model_training.ipynb` - When everything seems like Disneyworld for data modeling... or maybe not
   - `scripts/`
-    - `preprocessing.py` - Scripts to run once we fully understand the entire problem context
+    - `preprocessing.py` - Scripts to run once we fully understand the entire problem context and automatizate the tasks
     - `train_model.py` - Script for training the model
     - `evaluate_model.py` - Script for evaluating the trained model
   - `models/`
     - `trained_model.pkl` - Serialized model information (stored as binary data)
+    - - `Arquitectura propuesta.md` - Markdown made with ChatGPT to propose an API REST Architecture
   - `docs/`
-    - `report.md` - Well... we're doing all this for a reason, right? Here’s the explanation of our results
-    - `system_design.md` - Theoretical description of the system that will make the model results available.
-      - (This section aims to describe a high-level design for exposing the model's results through APIs or other platforms, like a website or mobile app.)
-  - `results/`
-    - `predictions.csv` - Model's predictions: the main output of our efforts
+    - `report.md` - Well... we're doing all this for a reason, right? Here’s the explanation of our results. Or it should be if i had the time...
   - `requirements.txt` - It's better to work with a virtual environment. We don't want to end up running `sudo rm -rf /`
-  - `README.md` - General project information, including the file you're reading right now
+  - `README.md` - General project information, including the file you're reading right now and a brief explanation of analysis done
   - `.gitignore` - Files and folders we don't want to upload to our beloved friend: GitHub
 
 
@@ -44,7 +43,7 @@ Repository for Bancolombia admission test.
 
 5) En un escenario ideal, la prueba de hubiese finalizado en sui totalidad con recomendaciones y un modelo serializado para la ejecucion. Una API que consuma los resultados del modelo y lo ejecute en tiempo real podria ser una buena practica. Paara esto, Flask o FastAPI crean herramientas web que permiten el despliegue de estos servicios. Para mayor informacion, ver mi peril personal en el proyecto de Currency Converter y el despliegue de API's.
 
-6) Chat GPT solo ha sido usado para **consultas asociadas a estructura de codigo** es decir, formatear siguiendo PEP8 (reglas de programacion estandarizada en pyhton)
+6) Chat GPT solo ha sido usado para **consultas asociadas a estructura de codigo** es decir, formatear siguiendo PEP8 (reglas de programacion estandarizada en pyhton) **y** la respuesta fuinal del script de uso de una API para desplegar el modelo
 
 *FYI:*
 (https://github.com/JhonatanSmith/Currency-Converter)
