@@ -64,7 +64,12 @@ def cambio_nombres(df):
         "default": "incumplimiento",
         "tipo_cliente": "tipo_cliente"
     }
-    return df.rename(columns=nombre_actual_a_nuevo, inplace=False)
+    print('ANTES DE CAMBIO DE NOMBRES')
+    print(df.columns)
+    df2 = df.rename(columns=nombre_actual_a_nuevo, inplace=False)
+    print('DESPUES DE CAMBIO DE NOMBRES')
+    print(df2.columns)
+    return df2
 
 
 def correcion_positivos(df, continuas: list, nombre_df: str):
