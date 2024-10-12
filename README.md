@@ -44,7 +44,7 @@ Repository for Bancolombia admission test.
 
 5) En un escenario ideal, la prueba de hubiese finalizado en sui totalidad con recomendaciones y un modelo serializado para la ejecucion. Una API que consuma los resultados del modelo y lo ejecute en tiempo real podria ser una buena practica. Paara esto, Flask o FastAPI crean herramientas web que permiten el despliegue de estos servicios. Para mayor informacion, ver mi peril personal en el proyecto de Currency Converter y el despliegue de API's.
 
-6) Chat GPT solo ha sido usado para **consultas asociadas a estructura de codigo** es decir, formatear siguiendo PEP8 (reglas de programacion estandarizada en pyhton)
+6) Chat GPT solo ha sido usado para **consultas asociadas a estructura de codigo** es decir, formatear siguiendo PEP8 (reglas de programacion estandarizada en pyhton) **y** la respuesta fuinal del script de uso de una API para desplegar el modelo
 
 *FYI:*
 (https://github.com/JhonatanSmith/Currency-Converter)
