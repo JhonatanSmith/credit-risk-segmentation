@@ -43,4 +43,6 @@ Repository for Bancolombia admission test.
 4) Se ha asumido un workflow de desarollo de analitica. Por eso se ha asignado esta estructura a los folders y archivos. **La logica y analisis del problema** fue ejecutada en el apartado de notebooks, ordenados como 1,2,3 y un nombre diciente del mismo. La carpeta **scripts** posee el pipeline de ejecucion del analisis. Ideialmente, todo se deberia de unificar en un scrip en la carpeta raiz que se llamase 'run_incumplimiento.py' que ejecutaria todos los ecripts y guardaria los resultados como s edio en la estructura del proyecto.
 
 5) En un escenario ideal, la prueba de hubiese finalizado en sui totalidad con recomendaciones y un modelo serializado para la ejecucion. Una API que consuma los resultados del modelo y lo ejecute en tiempo real podria ser una buena practica. Paara esto, Flask o FastAPI crean herramientas web que permiten el despliegue de estos servicios. Para mayor informacion, ver mi peril personal en el proyecto de Currency Converter y el despliegue de API's.
-6) 
+
+*FYI:*
+(https://github.com/JhonatanSmith/Currency-Converter)
